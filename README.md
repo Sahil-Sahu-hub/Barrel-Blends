@@ -1,6 +1,5 @@
-## Barrel-Blends
-
-MarginLift: Vendor Performance & Profitability Analysis
+## Project Title##
+Barrels & Blends MarginLift: Vendor Performance & Profitability Analysis
 
 **Project Overview**
 
