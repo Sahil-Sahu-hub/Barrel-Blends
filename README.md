@@ -16,7 +16,7 @@ This project provides a comprehensive data-driven analysis for "Barrel & Blend,"
 
 - Data Preparation: SQL (MySQL)
 - Data Analysis: Python (Pandas, Matplotlib, Seaborn, SciPy)
-- Visualization & Reporting: Power BI
+- Visualization & Reporting: Power BI.
 
 **How to Explore**
 
