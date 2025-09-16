@@ -1,33 +1,37 @@
-# Barrel-Blends
+## Project Title
+Barrels & Blends
 
-MarginLift: Vendor Performance & Profitability Analysis
+## Brief One Line Summary
+Data-driven analytics and dashboarding solution for beverage consumption, blending, and distribution optimization.
 
-**Project Overview**
+## Overview
+Barrels & Blends is a data analytics initiative designed to optimize beverage blending ratios, distribution efficiency, and customer consumption behavior analysis. The primary objective is to provide stakeholders with actionable intelligence on production planning, demand forecasting, and profitability levers.
 
-This project provides a comprehensive data-driven analysis for "Barrel & Blend," a multi-vendor marketplace, to address key business challenges such as margin compression and inefficient inventory management. The goal was to transform raw sales and purchase data into a strategic tool for optimizing profitability and operational efficiency.
+This repository serves as the central hub for the project’s codebase, datasets, dashboards, and supporting documentation. It targets data analysts, product managers, operations teams, and strategic decision-makers seeking evidence-based improvements in beverage supply chains.
 
-**Key Insights & Features**
+The final deliverable is an interactive business intelligence dashboard supplemented by predictive analytics models that surface key performance indicators (KPIs), forecast demand across distribution channels, and recommend optimized blending ratios aligned with market dynamics.
 
-* Identified high-potential brands: Discovered a segment of brands with low sales but high profit margins, ripe for targeted marketing and pricing adjustments.
+## Problem Statement
+The beverage sector experiences recurring challenges around overproduction, suboptimal blending ratios, and demand misalignment across distribution channels. These inefficiencies translate into inventory holding costs, margin erosion, and dissatisfied customers. The success criteria for this project include measurable uplift in demand forecast accuracy (+[REPLACE_WITH_%]), reduced inventory wastage (-[REPLACE_WITH_%]), and an improvement in blend profitability (+[REPLACE_WITH_%]) against established KPIs.
 
-* Quantified bulk purchasing benefits: Analyzed the impact of purchasing volume, revealing a significant reduction in unit costs for larger orders.
+## Dataset
+- **Source:** `[DATA_SOURCE_URL]` (replace with actual provider)
+- **Fields (schema):**
+  - `date` (YYYY-MM-DD)
+  - `region` (string)
+  - `outlet_type` (string; e.g., retail, bar, wholesale)
+  - `product_id` (string)
+  - `blend_ratio` (float; % composition of blend)
+  - `units_sold` (integer)
+  - `revenue` (float, in local currency)
+  - `cost` (float, in local currency)
+  - `customer_feedback_score` (float; 1–5 scale)
+- **Sample Size:** `[N_ROWS]` rows, `[N_MB] MB` file size
+- **Update Frequency:** Weekly batch loads
+- **Privacy/Licensing:** Licensed for internal analytics use only. Do not redistribute externally.
 
-* Uncovered inventory inefficiencies: Calculated the capital tied up in unsold inventory, highlighting opportunities to improve cash flow and reduce holding costs.
-
-* Statistically validated vendor performance: Used hypothesis testing to confirm a significant difference in profitability between top- and low-performing vendors.
-
-**Tools & Technologies Used**
-
-* Data Preparation: SQL (MySQL)
-
-* Data Analysis: Python (Pandas, Matplotlib, Seaborn, SciPy)
-
-* Visualization & Reporting: Power BI
-
-**How to Explore**
-
-The core of this project is presented through the Python notebooks for the analysis and the Power BI dashboard for the final report. You can navigate the repository to view the full data analysis pipeline and the final dashboard visuals.
-
-**Conclusion**
-
-This project demonstrates the power of data analytics to drive tangible business value. It provides a clear, actionable roadmap for improving profitability and operational efficiency within a multi-vendor marketplace.
+**Sample CSV Snippet:**
+```csv
+date,region,outlet_type,product_id,blend_ratio,units_sold,revenue,cost,customer_feedback_score
+2025-08-01,North,retail,P123,0.65,120,2400.50,1500.00,4.3
+2025-08-01,South,bar,P456,0.45,75,1850.00,900.00,3.8
