@@ -12,7 +12,7 @@ This repository serves as the central hub for the project’s codebase, datasets
 The final deliverable is an interactive business intelligence dashboard supplemented by predictive analytics models that surface key performance indicators (KPIs), forecast demand across distribution channels, and recommend optimized blending ratios aligned with market dynamics.
 
 ## Problem Statement
-The beverage sector experiences recurring challenges around overproduction, suboptimal blending ratios, and demand misalignment across distribution channels. These inefficiencies translate into inventory holding costs, margin erosion, and dissatisfied customers. The success criteria for this project include measurable uplift in demand forecast accuracy (+[REPLACE_WITH_%]), reduced inventory wastage (-[REPLACE_WITH_%]), and an improvement in blend profitability (+[REPLACE_WITH_%]) against established KPIs.
+The beverage sector experiences recurring challenges around overproduction, suboptimal blending ratios, and demand misalignment across distribution channels. These inefficiencies translate into inventory holding costs, margin erosion, and dissatisfied customers. The success criteria for this project include measurable uplift in demand forecast accuracy Percentage, reduced inventory wastage percentage, and an improvement in blend profitability percentage against established KPIs.
 
 ## Dataset
 - **Source:** `[DATA_SOURCE_URL]` (replace with actual provider)
